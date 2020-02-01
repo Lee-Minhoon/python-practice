@@ -1,0 +1,110 @@
+print("연습문제 - 1/1번")
+print("환영합니다")
+print("파이썬의 세계에 오신 것을 환영합니다.")
+print("파이썬은 강력합니다.")
+input("Enter를 치시오")
+
+print()
+print("연습문제 - 1/3번")
+week=7
+hour=24
+n=week*hour
+int(n)
+print("한주의 시간은 : %s시간입니다." %n)
+input("Enter를 치시오")
+
+print()
+print("연습문제 - 1/5번")
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+t.width(10)
+t.fd(100)
+t.lt(90)
+t.fd(100)
+input("Enter를 치시오")
+t.reset()
+
+print()
+print("연습문제 - 1/7번")
+t.shape("square")
+t.fd(100)
+input("Enter를 치시오")
+t.reset()
+
+print()
+print("연습문제 - 1/9번")
+t.speed(0)
+t.shape("turtle")
+t.up()
+t.goto(-100,-50)
+t.down()
+t.circle(100)
+t.up()
+t.goto(100,-50)
+t.down()
+t.circle(100)
+t.up()
+t.goto(-200,50)
+t.down()
+t.circle(100)
+t.up()
+t.goto(000,50)
+t.down()
+t.circle(100)
+t.up()
+t.goto(200,50)
+t.down()
+t.circle(100)
+input("Enter를 치시오")
+t.reset()
+
+print()
+print("연습문제 - 2/2번")
+one=int(input("첫 번째 숫자를 입력하시오 : "))
+two=int(input("두 번째 숫자를 입력하시오 : "))
+three=int(input("세 번째 숫자를 입력하시오 : "))
+average=(one+two+three)/3
+print("%d %d %d 의 평균은 %d 입니다."%(one,two,three,average))
+input("Enter를 치시오")
+
+print()
+print("연습문제 - 2/4번")
+radius=50
+t.circle(radius)
+t.up()
+t.goto(100,0)
+t.down()
+radius+=20
+t.circle(radius)
+t.up()
+t.goto(200,0)
+t.down()
+radius+=20
+t.circle(radius)
+input("Enter를 치시오")
+t.reset()
+
+print()
+print("연습문제 - 2/5번") #6번 문제가 5번과 연결되어 5번도 풀게 되었습니다.
+side=100
+t.fd(side)
+t.lt(120)
+t.fd(side)
+t.lt(120)
+t.fd(side)
+input("Enter를 치시오")
+t.reset()
+
+print()
+print("연습문제 - 2/6번")
+side+=100
+t.fd(side)
+t.lt(120)
+t.fd(side)
+t.lt(120)
+t.fd(side)
+input("Enter를 치시오")
+t.reset()
+
+#20141767 이민훈
